@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Example Custom Input JS</title>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.custominput-0.1.0.js"></script>
+	<script type="text/javascript">
+	   $(function(){
+		$('form').custominput();
+	   });
+	</script>
+    </head>
+    <body>
+	<form action="" method="get" name="form-example">
+ 	    <p>
+	        <label for="name">Name:</label>
+	        <input type="text" name="name" id="name" value="" />
+	    </p>
+	    <p>
+		<label for="tel">Tel:</label>
+                <input type="tel" name="tel" id="tel" value="" />
+            </p>
+	    <p>                
+                <input type="submit" name="sub" id="sub" value="Submit" />
+            </p>
+	</form>
+    </body>
+</html>
